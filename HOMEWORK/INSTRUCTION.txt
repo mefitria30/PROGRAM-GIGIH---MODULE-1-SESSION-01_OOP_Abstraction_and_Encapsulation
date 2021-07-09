@@ -1,0 +1,26 @@
+Homework
+
+Now, let's help Jin a little bit. As a hero, every time he is attacked, Jin has 80% chance to deflect the attack. When he deflects an attack, he takes 0 damage and his hit point are not reduced.
+
+The rest of the rules are still the same with the previous problem statement
+
+---------------------------------------------------------------------------------------------------
+The result suppose looks like this:
+
+> ruby app.rb
+
+Jin Sakai has 100 hitpoint and 50 attack_damage
+
+Khotun Khan has 500 hitpoint and 50 attack_damage
+
+Jin Sakai attacks Khotun Khan with 50 attack_damage
+Khotun Khan has 450 hitpoint and 50 attack_damage
+
+Khotun Khan attacks Jin Sakai with 50 attack_damage
+Jin Sakai deflects the attacks.
+Jin Sakai has 100 hitpoint and 50 attack_damage
+
+[repeat until one of Jin or Khotun dies]
+
+[in the case that Jin dies]
+Jin Sakai dies

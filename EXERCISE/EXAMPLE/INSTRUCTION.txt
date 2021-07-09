@@ -1,0 +1,30 @@
+Let's Start with an Example
+
+Suppose you are working on a turn-based CLI game about a samurai named Jin Sakai who fights an invading Mongol army led by Khotun Khan
+
+When the game is started, Jin Sakai and Khotun Khan are created with certain amount of hit points and attack damage. Then, they take turn to attack each other. When attacked, a person's hit points are reduced as the same amount of the attacker's attack damage.
+
+The game stops when one of Jin or Khotun dies.
+
+---------------------------------------------------------------------------------------------------
+The result suppose looks like this:
+
+> ruby app.rb
+
+Jin Sakai has 100 hitpoint and 50 attack_damage
+
+Khotun Khan has 500 hitpoint and 50 attack_damage
+
+Jin Sakai attacks Khotun Khan with 50 attack_damage
+Khotun Khan has 450 hitpoint and 50 attack_damage
+
+Khotun Khan attacks Jin Sakai with 50 attack_damage
+Jin Sakai has 50 hitpoint and 50 attack_damage
+
+Jin Sakai attacks Khotun Khan with 50 attack_damage
+Khotun Khan has 400 hitpoint and 50 attack_damage
+
+Khotun Khan attacks Jin Sakai with 50 attack_damage
+Jin Sakai has 0 hitpoint and 50 attack_damage
+
+Jin Sakai dies
